@@ -1,0 +1,40 @@
+ANSWERS:
+
+1. Project Overview Describe the application.
+
+A simple backend API for a campus printing shop owner that records printing orders digitally and automatically computes total cost.
+It will run locally only.
+
+-No database.
+-Using FastAPI only.
+-Orders are saved in memory.
+-With fixed Printing Pricing Structure (example: The system will compute total based on pages × price. / Black & White : PHP 2.00 per page , Colored : PHP 5.00 per page , Photo Paper : PHP 20.00 per page)
+
+
+2. Problem Statement What problem does the client face?
+
+The client problem is they record orders manually.
+Sometimes:
+
+-orders are lost
+-orders are duplicated
+-wrong computation of total
+-hard to track daily orders
+
+
+3. Objectives List system goals.
+
+The system goal is:
+-Accept printing orders
+-Compute total cost automatic
+-View all orders
+-Retrieve specific order
+-Avoid manual mistakes
+
+
+4. Users: Primary users of the system.
+
+Primary user:
+-Printing Shop Owner
+-Cashier
+-client
